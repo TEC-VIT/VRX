@@ -1,0 +1,6 @@
+<launch>
+
+  <node pkg="gps_goal" type="gps_goal" name="gps_goal" output="screen">
+    <param name="frame_id" value="map"/>
+  </node>
+</launch>
